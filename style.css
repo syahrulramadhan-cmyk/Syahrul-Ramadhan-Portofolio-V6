@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.wrapper {
+    width: 1024px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+/*
+* menu
+*/
+nav {
+    background-color: #222831;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav > .wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.menu{
+    width: 50%;
+}
+
+.menu > ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo > img {
+    height: 45px;
+}
+
+/*
+* hero / jumbotron
+*/
+header {
+    background: url('../images/bg-header.jpeg');
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-size: "Kanit", sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 0 0 4px #000;
+}
+.header-opacity {
+    background-color: #222831;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-jumbotron {
+    position: absolute;
+top: 0;
+left: 0;
+display: flex;
+width: 100%;
+height: 100%;
+justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.header-jumbotron {
+    color: #FFCE10;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+}
+.header-jumbotron > h5 {
+    color: #fff;
+    margin: 0px;
+    padding: 5px;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+
+}
+
+.header-jumbotron > p {
+    padding: 5px;
+    margin: 20px 5px 20px 5px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    text-shadow: none;
+}
+
+.button {
+    background-color: #FFCE10;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-size: "Kanit", sans-serif;
+}
+.button-xl {
+    font-size: 1.4rem;
+    padding: 20px;
+} 
+
+/*
+* statistic
+*/
+#statistic {
+    background-color: #393e46;
+    color: #fff;
+    font-size: "Kanit", sans-serif;
+}
+
+#statistic > .wrapper {
+    padding: 50px;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#statistic > .wrapper > div {
+    text-align: center;
+}
+
+#statistic >.wrapper > div > p {
+    font-size: 3.5rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+#statistic > .wrapper > div > p > i {
+    margin-right: 10px;
+    font-size: 3rem;
+}
+
+#statistic > .wrapper > div > small {
+    font-size: 1.5rem;
+}
+/*
+* Home
+*/
+#Home {
+    background-color: #222831;
+    color: #FFCE10;
+}
+#Home > .wrapper > h4 {
+    font-size: 3.5rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif;
+}
+
+.grid {
+    display: grid;
+}
+.grid > .item {
+    font-size: 3rem;
+    color: #FFCE10;
+    font-family: "Kanit", sans-serif;
+}
+.grid > .itemm {
+    font-size: 2.8rem;
+    color: #FFCE10;
+    font-family: "Kanit", sans-serif;
+}
+.grid > .itemmm {
+font-size: 2rem;
+color: #fff;
+font-family: "Kanit", sans-serif;
+}
+.grid > .itemmmm {
+    font-size: 2rem;
+    color: #fff;
+    font-family: "Kanit", sans-serif;
+}
+.grid > .itemmmmm {
+    font-size: 2.8rem;
+    color: #FFCE10;
+    font-family: "Kanit", sans-serif;
+}
+
+/*
+* About Me
+*/
+
+#About-Me {
+    background-color: #eeeeee;
+    color-scheme: #333;
+}
+
+#About-Me > .wrapper {
+    padding: 50px 0px 50px 0px;
+}
+
+
+#About-Me > .wrapper > h1 {
+    display: flex;
+    text-align: right;
+    font-size: 3.5rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif;
+}
+
+#About-Me > .wrapper > div {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
+
+#About-me > .wrapper > div > .foto {
+    width: 30%;
+}
+#About-me > .wrapper > div > .foto > img {
+    max-width: 100%;
+} 
+
+#About-me > .wrapper > div > .desc {
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.about-me {
+    font-size: 3.5rem;
+}
+
+.grid {
+    font-size: 2.3rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif;
+    color: #000;
+}
+
+.grid > .itim {
+    font-size: 2.3rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif;
+    color: #000;
+}
+
+/*
+* Contact
+*/
+#Contact {
+    background-color: #393e46;
+}
+
+#Contact {
+    padding: 50px 0px 50px 0px;
+}
+
+#Contact {
+    font-size: 3.5rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.grid {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif;
+    color: #fff;
+}
+ 
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
